@@ -87,12 +87,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/template/css/bootstrap.min.css",
+              "src/assets/template/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/template/js/bootstrap.bundle.min.js",
+              "src/assets/template/js/main.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c76d5807-f2ab-4f25-9c3d-d2a1c32553d2"
   }
 }
